@@ -19,10 +19,10 @@ Furthermore, by calculating the matrix bias, the density matrix of the subsystem
 $$\rho_A=Tr_B(\rho_{AB})$$
 
 
-$$\mathrm{Tr}_B(C)=\sum_{i=0}^{n-1}(I_n\otimes\langle i|)C(I_n\otimes|i\rangle)$$
+$$\mathrm{Tr}_B(C)=\sum_{i=0}^{n-1}(I_n\otimes \langle i|)C(I_n\otimes|i\rangle)$$
 
 
-$$\mathrm{Tr}_A(C)=\sum_{i=0}^{n-1}\left(\langle i|\otimes I_n\right)C(|i\rangle\otimes I_n)$$
+$$\mathrm{Tr}_A(C)=\sum_{i=0}^{n-1}\left( \langle i|\otimes I_n\right)C(|i \rangle\otimes I_n)$$
 
 最后根据二方互信息、冯诺依曼熵、可观测量的计算方法，产生数据集。
 
