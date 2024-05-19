@@ -18,7 +18,9 @@ Furthermore, by calculating the matrix bias, the density matrix of the subsystem
 
 $$\rho_A=Tr_B(\rho_{AB})$$
 
-$$\mathrm{Tr}_B(C)=\sum_{i=0}^{n-1}{(I_n\otimes\langle i|)C(I_n\otimes|i\rangle)}$$
+
+$$\mathrm{Tr}_B(C)=\sum_{i=0}^{n-1}(I_n\otimes\langle i|)C(I_n\otimes|i\rangle)$$
+
 
 $$\mathrm{Tr}_A(C)=\sum_{i=0}^{n-1}\left(\langle i|\otimes I_n\right)C(|i\rangle\otimes I_n)$$
 
@@ -77,7 +79,7 @@ Dataset folder directory structure:
 神经网络结构如图所示：
 ![](https://img2.imgtp.com/2024/05/20/pg404N3G.png)
 
-验证集上的准确率可以达到 $97\%$。
+验证集上的准确率可以达到 97%。
 ![](https://img2.imgtp.com/2024/05/20/G7DBKWKs.png)
 
 ### 二方互信息回归器
