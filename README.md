@@ -27,7 +27,9 @@ $$\mathrm{Tr}_A(C)=\sum_{i=0}^{n-1}\left(\langle i|\otimes I_n\right)C(|i\rangle
 Finally, based on the calculation methods of mutual information, von Neumann entropy, and observability, a dataset is generated.
 
 $$I_2(A:B)=S\left(\rho_A\right)+S\left(\rho_B\right)-S\left(\rho_{AB}\right),$$
+
 $$S\left(\rho\right)=-\sum_i\left(\lambda_i\log\lambda_i\right)$$
+
 $$o_i(\rho)=\mathrm{trace}(O_i\rho)$$
 
 数据集文件夹目录结构：
